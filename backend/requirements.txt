@@ -4,4 +4,6 @@ websockets==13.1
 httpx==0.27.2
 anthropic==0.34.2
 python-dotenv==1.0.1
-speechmatics-rt==5.0.0
+# speechmatics-rt==5.0.0 n'existe pas (dernière version : 1.2.1). Non requis par l'application :
+# main.py utilise le module local speechmatics.py. Seuls speechmatics_realtime_example.py et
+# test_api.py importent le SDK : pour les essayer, pip install speechmatics-rt==1.2.1
