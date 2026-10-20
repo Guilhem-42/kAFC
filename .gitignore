@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────
+# kAFC — .gitignore
+# ─────────────────────────────────────────────────────────────
+
+# ── SECRETS — ne jamais committer ─────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── PYTHON — environnement virtuel ────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ── NODE — dépendances et build ───────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── VIDEOS — fichiers lourds (distribuer manuellement ou Git LFS)
+frontend/src/assets/videos/*.mp4
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── ÉDITEURS ──────────────────────────────────────────────────
+.cursor/
+.vscode/settings.json
+*.swp
+*.swo
+
+# ── PRÉPARATION LOCALE — notes, médias, essais (jamais poussés) ─
+preparation/
