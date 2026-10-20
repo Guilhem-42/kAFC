@@ -3,6 +3,8 @@
 
 Agent conversationnel vocal multilingue et hilarant, développé pour le hackathon Voice AI.
 
+*Hilarious multilingual voice agent, built for the Voice AI hackathon (Activate Your Voice, Feb. 2026).*
+
 ---
 
 ## Architecture
